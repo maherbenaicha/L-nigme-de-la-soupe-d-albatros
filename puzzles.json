@@ -1,0 +1,20 @@
+[
+  {
+    "id": "silent_bell",
+    "statement": "Chaque matin, Nora teste une cloche avant d'ouvrir sa boutique. Certains matins, elle sonne et Nora attend. Ce matin, la cloche reste silencieuse. Nora ouvre immédiatement, rassurée. Pourquoi ?",
+    "solution": "La cloche est un détecteur mécanique de gel : son battant est relié à une petite réserve d'eau extérieure. Quand l'eau gèle, la dilatation déplace le battant et la cloche sonne lors du test. Nora vend des plantes fragiles et ne les expose dehors que si le test est silencieux. Ce matin il n'y a pas de gel, elle peut ouvrir et sortir les plantes.",
+    "rubric": ["La cloche sert à détecter le gel, pas à annoncer l'ouverture.", "Le gel de l'eau actionne mécaniquement le battant lors du test.", "Le silence signifie absence de gel et permet d'exposer sans danger les plantes fragiles."]
+  },
+  {
+    "id": "backward_label",
+    "statement": "Un technicien refuse un colis dont l'étiquette est parfaitement lisible. Il accepte le même colis après que l'étiquette a été retournée, alors qu'il ne peut plus la lire directement. Pourquoi ?",
+    "solution": "Le colis contient une caméra destinée à lire une étiquette à travers un miroir fixé dans un banc de contrôle fermé. L'étiquette est imprimée en miroir sur une feuille transparente. Initialement sa face arrière est tournée vers le technicien, qui la lit normalement par transparence, mais la caméra voit une image inversée après réflexion. Retourner la feuille rend le texte inversé pour le technicien et normal pour la caméra via le miroir. Il accepte après ce contrôle de lisibilité.",
+    "rubric": ["Le contrôle concerne la lecture par une caméra via un miroir.", "L'étiquette est une feuille transparente avec du texte imprimé en miroir.", "Retourner la feuille compense l'inversion du miroir pour la caméra et valide le contrôle."]
+  },
+  {
+    "id": "empty_recording",
+    "statement": "Une archiviste reçoit un enregistrement de dix minutes où aucun son n'est audible. Elle le conserve comme preuve que la machine a correctement fonctionné. Pourquoi ?",
+    "solution": "La machine teste l'isolation acoustique d'une cabine. Une source sonore calibrée joue à l'extérieur durant les dix minutes, tandis qu'un microphone vérifié et un enregistreur fonctionnent à l'intérieur. Le fichier comporte également un signal de calibration avant et après les dix minutes, audible, attestant que la chaîne d'enregistrement marche. Le silence pendant l'essai démontre que le bruit extérieur est resté sous le seuil de détection prévu.",
+    "rubric": ["Il s'agit d'un essai d'isolation acoustique avec une source extérieure active.", "Le microphone et l'enregistreur à l'intérieur sont vérifiés par un signal avant et après l'essai.", "Le silence pendant l'essai signifie que le bruit transmis est sous le seuil prévu, et non une panne d'enregistrement."]
+  }
+]
